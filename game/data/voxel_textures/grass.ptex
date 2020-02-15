@@ -82,7 +82,7 @@
 				"metallic": 1,
 				"normal_scale": 1,
 				"roughness": 1,
-				"size": 6,
+				"size": 8,
 				"subsurf_scatter_strength": 0
 			},
 			"type": "material"
@@ -94,8 +94,8 @@
 				"y": -480
 			},
 			"parameters": {
-				"density": 0.0047,
-				"size": 6
+				"density": 0.00285,
+				"size": 8
 			},
 			"type": "noise"
 		},
@@ -125,17 +125,17 @@
 						},
 						{
 							"a": 1,
-							"b": 0.141351,
-							"g": 0.21875,
+							"b": 0.14946,
+							"g": 0.223958,
 							"pos": 0.667273,
-							"r": 0.141191
+							"r": 0.149306
 						},
 						{
 							"a": 1,
-							"b": 0.228809,
-							"g": 0.401042,
+							"b": 0.328234,
+							"g": 0.520833,
 							"pos": 1,
-							"r": 0.271866
+							"r": 0.376382
 						}
 					],
 					"type": "Gradient"
@@ -150,7 +150,7 @@
 				"y": -236
 			},
 			"parameters": {
-				"size": 6,
+				"size": 8,
 				"suffix": "albedo"
 			},
 			"type": "export"
@@ -239,7 +239,7 @@
 				"y": 19
 			},
 			"parameters": {
-				"param0": 8,
+				"param0": 10,
 				"param1": 0.05,
 				"param2": 0
 			},
