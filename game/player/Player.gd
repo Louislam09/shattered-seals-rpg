@@ -24,7 +24,6 @@ class_name PlayerGD
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-
 func _from_dict(dict):
 	._from_dict(dict)
 	
