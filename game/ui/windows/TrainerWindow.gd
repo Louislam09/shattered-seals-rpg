@@ -14,3 +14,10 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
+
+
+func _on_Trainer_toggled(button_pressed):
+	if button_pressed:
+		show()
+	else:
+		hide()
