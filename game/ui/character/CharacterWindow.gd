@@ -1,6 +1,6 @@
-extends PanelContainer
+extends Control
 
-export(NodePath) var opener_button_path : NodePath
+#export(NodePath) var opener_button_path : NodePath
 var opener_button : BaseButton
 
 export(NodePath) var container_path : NodePath
@@ -9,7 +9,7 @@ var container : Node
 var _player : Entity
 
 func _ready():
-	opener_button = get_node_or_null(opener_button_path) as BaseButton
+#	opener_button = get_node_or_null(opener_button_path) as BaseButton
 	container = get_node(container_path)
 
 func set_player(p_player: Entity) -> void:
@@ -19,7 +19,7 @@ func set_player(p_player: Entity) -> void:
 		if c.has_method("set_player"):
 			c.set_player(_player)
 
-func _on_CharacterButton_toggled(button_pressed):
+func _on_button_toggled(button_pressed):
 	if button_pressed:
 		show()
 	else:
