@@ -53,7 +53,7 @@ func _generate_chunk(chunk : VoxelChunk) -> void:
 	if _planet == null:
 		return
 	
-	_planet.generate_chunk(chunk, _spawn_mobs)
+	_planet.generate_voxel_chunk(chunk, _spawn_mobs)
 
 func create_planet():
 	var planet_files : Array = get_planets(planet_folder)
